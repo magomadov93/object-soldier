@@ -26,6 +26,7 @@ const soldier = {
     if (this.health === 0) {
       return "ты проиграл";
     }
+    
     return this.health--;
   },
 };
